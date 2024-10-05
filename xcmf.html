@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="이원식">
+  <title>충북선교현장을</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">충북선교현장을</h1>
+  <p class="subtitle">통해서 본 청주선교부의 사역</p>
+  <p class="author">이원식</p>
+  <p class="date">2024. 10. 14.</p>
+</section>
+
+<section id="서론" class="slide level1">
+<h1>0. 서론</h1>
+<style>
+#bright {color: deeppink; }
+</style>
+<style>
+#dark {color: limegreen; }
+</style>
+<style>
+#choco {color: chocolate; }
+</style>
+<style>
+#salmon {color: salmon; }
+</style>
+<!-- 칼라 사용하기 -->
+<!--
+<section>
+- <span id='deeppink'>Deep Pink</span></section>
+
+<section>
+- <span id='dark'>Dark</span>
+</section>
+
+<section>
+- <span id='choco'>Chocolate</span>
+- <span id='salmon'>Salmon</span>
+</section>
+-->
+<pre><code>충북선교현장에선 211편, 소제목을 별도로 하면 268편의 글이 수록되어 있다.
+발표할 글의 순서는 다음과 같다.
+</code></pre>
+<p><span class="fragment">민노아   </span> <span class="fragment">헌트
+ </span> <span class="fragment">카긴  </span> <span
+class="fragment">솔타우   </span> <span class="fragment">팁톤</span></p>
+<p><span class="fragment">결론</span></p>
+</section>
+<section id="발표-편-수" class="slide level1">
+<h1>발표 편 수</h1>
+<canvas id="myBarChart" width="1000" height="450">
+</canvas>
+<p><!-- Increased height to 800px --></p>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+
+  var ctx = document.getElementById('myBarChart').getContext('2d');
+  var myBarChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['민노아', '클락', '무명', '헌트', '카긴', '솔타우', '도티', '쉴즈', '데이비스', '스워러', '퍼비안스', '룰루 퍼비안스', '쿡', '모리스', '에비슨', '에스텝', '팁톤', '해리 로즈', 'E. H. 밀러'],
+      datasets: [{
+        label: '편 수',
+        data: [122, 24, 14, 10, 7, 7, 6, 6, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.6)',  // Red
+          'rgba(54, 162, 235, 0.6)',  // Blue
+          'rgba(75, 192, 192, 0.6)',  // Teal
+          'rgba(255, 206, 86, 0.6)',  // Yellow
+          'rgba(153, 102, 255, 0.6)', // Purple
+          'rgba(255, 159, 64, 0.6)',  // Orange
+          'rgba(255, 99, 132, 0.6)',  // Red
+          'rgba(54, 162, 235, 0.6)',  // Blue
+          'rgba(75, 192, 192, 0.6)',  // Teal
+          'rgba(255, 206, 86, 0.6)',  // Yellow
+          'rgba(153, 102, 255, 0.6)', // Purple
+          'rgba(255, 159, 64, 0.6)',  // Orange
+          'rgba(255, 99, 132, 0.6)',  // Red
+          'rgba(54, 162, 235, 0.6)',  // Blue
+          'rgba(75, 192, 192, 0.6)',  // Teal
+          'rgba(255, 206, 86, 0.6)',  // Yellow
+          'rgba(153, 102, 255, 0.6)', // Purple
+          'rgba(255, 159, 64, 0.6)',  // Orange
+          'rgba(255, 99, 132, 0.6)'   // Red
+        ],
+        borderColor: [
+          'rgba(255, 99, 132, 1)',    // Red
+          'rgba(54, 162, 235, 1)',    // Blue
+          'rgba(75, 192, 192, 1)',    // Teal
+          'rgba(255, 206, 86, 1)',    // Yellow
+          'rgba(153, 102, 255, 1)',   // Purple
+          'rgba(255, 159, 64, 1)',    // Orange
+          'rgba(255, 99, 132, 1)',    // Red
+          'rgba(54, 162, 235, 1)',    // Blue
+          'rgba(75, 192, 192, 1)',    // Teal
+          'rgba(255, 206, 86, 1)',    // Yellow
+          'rgba(153, 102, 255, 1)',   // Purple
+          'rgba(255, 159, 64, 1)',    // Orange
+          'rgba(255, 99, 132, 1)',    // Red
+          'rgba(54, 162, 235, 1)',    // Blue
+          'rgba(75, 192, 192, 1)',    // Teal
+          'rgba(255, 206, 86, 1)',    // Yellow
+          'rgba(153, 102, 255, 1)',   // Purple
+          'rgba(255, 159, 64, 1)',    // Orange
+          'rgba(255, 99, 132, 1)'     // Red
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',  // This makes it horizontal
+      scales: {
+        x: {
+          beginAtZero: true
+        },
+        y: {
+          ticks: {
+            autoSkip: false  // Ensure that all labels are displayed
+          }
+        }
+      }
+    }
+  });
+</script>
+</section>
+<section id="민노아" class="slide level1">
+<h1>1. 민노아</h1>
+</section>
+<section class="slide level1">
+
+<p><img src="fsm.png" 
+    width="360"
+    height="340"
+/></p>
+<pre><code>                     민노아 선교사와 수잔 도티 여사</code></pre>
+</section>
+<section id="section" class="slide level1"
+data-background="feynmann.png">
+<h1 data-background="feynmann.png"> </h1>
+</section>
+<section class="slide level1">
+
+<pre><code>                    a.  한국적인 것들 : 1916. 11.</code></pre>
+<div style="display: flex; justify-content: space-between;">
+<div style="width: 50%; text-align: center;">
+<img src="india.webp" alt="Figure" style="max-width: 75%; height: auto;">
+</div>
+<div style="width: 50%; text-align: center;">
+<img src="ring.webp" alt="Figure" style="max-width: 75%; height: auto;">
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<pre><code>                    b. 술집 주인의 아들 : 1931. 1. </code></pre>
+<div style="display: flex; justify-content: space-between;">
+<div style="width: 50%; text-align: center;">
+<img src="liq1.png" alt="Figure" style="max-width: 75%; height: auto;">
+</div>
+<div style="width: 50%; text-align: center;">
+<img src="liq2.webp" alt="Figure" style="max-width: 75%; height: auto;">
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<h4 id="section-1"> </h4>
+<pre><code>                     c. 선교의 어려움: 1902. 2.</code></pre>
+<p><img src="arrest.webp" 
+    width="340"
+    height="340"
+/></p>
+</section>
+<section class="slide level1">
+
+<h4 id="section-2"> </h4>
+<pre><code>                          d. 민노아의 가족 </code></pre>
+<p><img src="ireland.png" 
+    width="300"
+    height="340"
+/></p>
+<pre><code>&quot;소년들은 교사의 아일랜드 사투리를 너무나 잘 배우고 호의적이어서 나는 교사로서 우월감이 생겼습니다.&quot;</code></pre>
+</section>
+<section id="헌트" class="slide level1">
+<h1>2. 헌트</h1>
+<ul>
+<li>소년의 회상 : 1919. 8.</li>
+</ul>
+<pre><code>특히 토요일 아침이 가장 싫었습니다. 남자 아이들은 책을 먼지를 털어내야 했고, 여자 아이들은 바느질을 했으며, 모두 집에 편지를 써야 했습니다. 저는 보통 즐기지 않았습니다. 책의 먼지를 털다가 소파에 발을 올려놓았던 그 토요일도 기억납니다. 그때 저는 크기가 작은 구판 『한국선교현장』으로 엉덩이를 찰싹 맞았습니다....  
+
+주님의 뜻이라면 저는 주님을 위한 목사가 될 것이며, 저를 위해 해주신 모든 일에 대해 여러분께 감사드립니다.</code></pre>
+</section>
+<section class="slide level1">
+
+<p><img src="hunt1.png" 
+    width="640"
+    height="340"
+/></p>
+<pre><code>                 1958. 3. 21.  부산 고려신학교 졸업</code></pre>
+</section>
+<section id="카긴" class="slide level1">
+<h1>3. 카긴</h1>
+<ul>
+<li>절제 : 1917. 9.</li>
+</ul>
+<pre><code>통제되지 않은 사랑은 한편으로는 저급한 욕망으로, 다른 한편으로는 단순한 친절이나 과장된 감정 분출이라는 쪽으로 타락될 수 있습니다....   
+
+균형 잡힌 사람은 덕목이 그 경계를 넘어 발전해 나가지 않도록 하고, 필요한 견제 없이 두지 않도록 황금절충(Golden mean)을 지키는 사람입니다.... 
+
+예수님은 그런 균형 잡힌 분이셨습니다. 그는 사랑에 대한 큰 능력을 가지고 있었고, 잘못된 것은 훌륭하게 증오하실 수 있으셨습니다. </code></pre>
+</section>
+<section class="slide level1">
+
+<p><img src="kagin.jpg" 
+    width="220"
+    height="340"
+/></p>
+<pre><code>         미네소타 성바울의 Macalester 대학 종교학과 교수로 재직함</code></pre>
+</section>
+<section id="솔타우" class="slide level1">
+<h1>4. 솔타우</h1>
+<ul>
+<li>추위와 더위 : 1918. 8.</li>
+</ul>
+<pre><code>첫 이틀 동안 우리가 이동한 길은 전형적인 산길로, 불가능해 보이는 언덕을 지그재그와 말굽 모양의 곡선을 그리며 기어오르거나 가파른 좁은 골짜기를 따라 내려갔습니다. 몇 달 전에 내린 눈이 큰 나무 썰매에 의해 단단하고 매끄럽게 다져져 있었습니다.... 
+
+이는 아마도 잘못 인도된 선교사를 끌고 다니는 불편함을 견디기보다 집으로 돌아가라고 썰매가 조랑말에게 보내는 신호였을 것입니다. 선교사는 담요에 따뜻하게 싸여 반쯤 잠든 상태로 자연의 아름다움이나 조랑말 발아래의 눈이 뽀삭거리는 소리에 무감각해졌습니다.... 
+
+이틀 동안 산을 넘고 나서 우리는 완전히 얼어붙은 깊이 약 3피트의 압록강으로 나왔습니다.</code></pre>
+</section>
+<section class="slide level1">
+
+<p><img src="soltaus.png" 
+    width="600"
+    height="340"
+/></p>
+<pre><code>                     솔타우 목사, 데오도라, 엘리너 박사</code></pre>
+</section>
+<section id="팁톤" class="slide level1">
+<h1>5. 팁톤</h1>
+<ul>
+<li>“왜 한국에 선교사로 가려고 하십니까?” : 1916. 7.</li>
+</ul>
+<pre><code>그분은 “너희가 나를 사랑하면 내 계명을 지키라”고 하셨습니다. 그렇다면 그분이 한국에서 나를 필요로 하실 때, 제가 미국에 남아서 그분을 사랑한다고 할 수 있을까요?.... 
+
+미국에는 500~600명당 한 명의 의사가 있습니다. 뉴욕의 한 거리에서는 한 블록에 72명의 의사가 사무실을 두고 있는 것을 세어본 적이 있습니다! 반면, 한국에서 제가 담당하는 지역에는 인구가 30만 명인 도시에 20개의 병상을 가진 작은 병원이 단 두 개뿐입니다. </code></pre>
+</section>
+<section class="slide level1">
+
+<p><img src="tipton.jpg" 
+    width="420"
+    height="340"
+/></p>
+<pre><code>             적십자 복장을 하고 가운데 앉아 있는 분이 팁톤 박사</code></pre>
+</section>
+<section id="결론" class="slide level1">
+<h1>6. 결론</h1>
+</section>
+<section id="한국-나의-고향" class="slide level1">
+<h1>한국! 나의 고향</h1>
+<p><br></p>
+<pre><code>                오, 고귀한 산들과 
+                넓고 풍요로운 평야의 땅, 
+                타오르는 황금빛 햇살과 
+                맑고 깨끗한 수정 같은 비, 
+                새벽에 이는 진주 같은 안개, 
+                하루 종일 반짝이는 초록빛, 
+                장밋빛과 노란색의 석양, 
+                별빛이 빛나는 밤들. 
+</code></pre>
+</section>
+<section id="한국-나의-고향-1" class="slide level1">
+<h1>한국! 나의 고향</h1>
+<p><br></p>
+<pre><code>                오, 새로운 땅과 새로운 하늘! 
+                더 아름다울 필요가 없네, 
+                자유로운 바람마다 
+                하나님의 자유가 숨쉬고; 
+                믿음이 바위산처럼 
+                언제나 하늘을 가리키고, 
+                하늘의 사랑이 햇살처럼 
+                영광의 홍수로 깔리네. </code></pre>
+</section>
+<section id="한국-나의-고향-2" class="slide level1">
+<h1>한국! 나의 고향</h1>
+<p><br></p>
+<pre><code>                오, 고향이여, 나는 너를 사랑하네 
+                하나님의 아름다움으로 차려입고! 
+                오, 고향이여, 나는 꿈꾸네 
+                하나님의 영광으로 축복받은 너를! 
+                오! 공의의 태양이여 떠오르라, 
+                치유의 날개를 가지고! 
+                하나님의 완전한 평화를 
+                우리의 고요한 아침의 나라에 가져다주기를!
+</code></pre>
+</section>
+<section class="slide level1">
+
+<div style="display: flex; justify-content: space-between;">
+<div style="width: 50%; text-align: center;">
+<img src="yun1.jpg" alt="Figure" style="max-width: 85%; height: auto;">
+</div>
+<div style="width: 50%; text-align: center;">
+<img src="yun2.jpg" alt="Figure" style="max-width: 85%; height: auto;">
+</div>
+</div>
+<pre><code>&quot;우리 한국 농부들은 논 위에 얼음이 깔려 있을 때 일하는 것에 익숙하지만 목사님은 그렇지 않습니다. 어서 제 등에 업히세요.&quot; 이것은 순전한 그의 나드 향유 옥합이었으니, 누가 그것을 거절할 수 있었겠습니까?....  
+
+그리운 윤씨 할아버지는 이제 저보다 먼저 세상을 떠나가셨습니다. 저도 마침내 요단강 둑을 내려가게 되면, 윤씨 할아버지가 이렇게 부르시는 음성을 들게 될 것 같습니다. &quot;목사님, 신발 벋지 마세요. 제가 곧장 그리로 갈께요&quot;.</code></pre>
+<!--
+<script>
+window.onload = function() {
+  Reveal.initialize({
+    parallaxBackgroundImage: 'parallax.tiff',
+    parallaxBackgroundSize: '2100px 900px',
+    parallaxBackgroundHorizontal: 200,
+    parallaxBackgroundVertical: 50
+  });
+};
+</script>
+-->
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: true,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
